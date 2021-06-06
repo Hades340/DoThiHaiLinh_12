@@ -129,6 +129,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\NhanViens1Controller.cs" />
     <Compile Include="Controllers\NhanViensController.cs" />
     <Compile Include="Controllers\TinhThanhsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -185,6 +187,13 @@
     <Content Include="Views\NhanViens\Details.cshtml" />
     <Content Include="Views\NhanViens\Edit.cshtml" />
     <Content Include="Views\NhanViens\Index.cshtml" />
+    <Content Include="Views\Login\Chosse.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\NhanViens1\Create.cshtml" />
+    <Content Include="Views\NhanViens1\Delete.cshtml" />
+    <Content Include="Views\NhanViens1\Details.cshtml" />
+    <Content Include="Views\NhanViens1\Edit.cshtml" />
+    <Content Include="Views\NhanViens1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -14,7 +14,7 @@
 
         [StringLength(50)]
         public string TenNhanVien { get; set; }
-        public int MaTinhThanh { get; set; }
+        public virtual TinhThanh MaTinhThanh { get; set; }
 
     }
 }

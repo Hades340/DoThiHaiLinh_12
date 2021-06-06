@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Đăng nhập</h2>
+@using (Html.BeginForm("Index", "Login", FormMethod.Post))
+{
+    <input type="text" id="userName" name="userName" />
+    <input type="password" id="passWord" name="passWord" />
+    <span id="loi"></span>
+    <button type="submit">Đăng nhập</button>
+}
+<script>
+    var us = document.getElementById("userName").value;
+    var pas = document.getElementById("passWord").value;
+    if (us == "" || pas == "") {
+        document.getElementById("loi").innerHTML("Bạn chưa điền tài khoản hoặc mật khẩu");
+    }
+</script>
